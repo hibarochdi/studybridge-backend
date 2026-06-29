@@ -1,0 +1,5 @@
+cat > /mnt/user-data/outputs/studybridge-backend/nixpacks.toml << 'EOF' [phases.install] cmds = ["npm install --build-from-source"] EOF  cat > /mnt/user-data/outputs/studybridge-backend/.npmrc << 'EOF' build-from-source=true EOF  echo "OK"
+
+Sortie
+
+OK
